@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43376891EE3A06900B218E3 /* bye.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A43376341EE3A06800B218E3 /* bye.atlas */; };
+		A44DB0571ED8645D002E1119 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DB0541ED86405002E1119 /* Charts.framework */; };
+		A44DB0581ED8645D002E1119 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A44DB0541ED86405002E1119 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3189A421E7196F300066C22 /* SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3189A411E7196F300066C22 /* SpriteKit.swift */; };
+		F31C9B571ED43F490047F10E /* ByeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F31C9B561ED43F490047F10E /* ByeScene.sks */; };
+		F31C9B5A1ED43F590047F10E /* ByeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C9B591ED43F590047F10E /* ByeScene.swift */; };
+		F3236E0A1E9FC7CC0003F8B9 /* wild_bear.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DF51E9FC7CC0003F8B9 /* wild_bear.wav */; };
+		F3236E0B1E9FC7CC0003F8B9 /* wild_bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DF61E9FC7CC0003F8B9 /* wild_bird.wav */; };
+		F3236E0C1E9FC7CC0003F8B9 /* wild_camel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DF71E9FC7CC0003F8B9 /* wild_camel.wav */; };
+		F3236E0E1E9FC7CC0003F8B9 /* domestic_cock.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DF91E9FC7CC0003F8B9 /* domestic_cock.wav */; };
+		F3236E0F1E9FC7CC0003F8B9 /* domestic_cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFA1E9FC7CC0003F8B9 /* domestic_cow.wav */; };
+		F3236E101E9FC7CC0003F8B9 /* domestic_dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFB1E9FC7CC0003F8B9 /* domestic_dog.wav */; };
+		F3236E111E9FC7CC0003F8B9 /* wild_dolphin.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFC1E9FC7CC0003F8B9 /* wild_dolphin.wav */; };
+		F3236E121E9FC7CC0003F8B9 /* domestic_donkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFD1E9FC7CC0003F8B9 /* domestic_donkey.wav */; };
+		F3236E131E9FC7CC0003F8B9 /* domestic_duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFE1E9FC7CC0003F8B9 /* domestic_duck.wav */; };
+		F3236E141E9FC7CC0003F8B9 /* wild_elephant.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236DFF1E9FC7CC0003F8B9 /* wild_elephant.wav */; };
+		F3236E151E9FC7CC0003F8B9 /* domestic_frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E001E9FC7CC0003F8B9 /* domestic_frog.wav */; };
+		F3236E161E9FC7CC0003F8B9 /* domestic_horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E011E9FC7CC0003F8B9 /* domestic_horse.wav */; };
+		F3236E171E9FC7CC0003F8B9 /* wild_lion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E021E9FC7CC0003F8B9 /* wild_lion.wav */; };
+		F3236E181E9FC7CC0003F8B9 /* wild_monkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E031E9FC7CC0003F8B9 /* wild_monkey.wav */; };
+		F3236E191E9FC7CC0003F8B9 /* domestic_pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E041E9FC7CC0003F8B9 /* domestic_pig.wav */; };
+		F3236E1A1E9FC7CC0003F8B9 /* wild_seal.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E051E9FC7CC0003F8B9 /* wild_seal.wav */; };
+		F3236E1B1E9FC7CC0003F8B9 /* domestic_sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E061E9FC7CC0003F8B9 /* domestic_sheep.wav */; };
+		F3236E1C1E9FC7CC0003F8B9 /* wild_snake.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E071E9FC7CC0003F8B9 /* wild_snake.wav */; };
+		F3236E1D1E9FC7CC0003F8B9 /* wild_wolf.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E081E9FC7CC0003F8B9 /* wild_wolf.wav */; };
+		F3236E1E1E9FC7CC0003F8B9 /* wild_zebra.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3236E091E9FC7CC0003F8B9 /* wild_zebra.wav */; };
+		F329D1671E896D6900366F92 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329D1661E896D6900366F92 /* Alerts.swift */; };
+		F329D16C1E8978FB00366F92 /* Habitat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329D16B1E8978FB00366F92 /* Habitat.swift */; };
+		F331FB601ECE46CD009F1973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F331FB5F1ECE46CD009F1973 /* Assets.xcassets */; };
+		F332B3421EC4958900369FBC /* ForParents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332B3411EC4958900369FBC /* ForParents.swift */; };
+		F34107471ECF390F00F3F765 /* ForParents.sks in Resources */ = {isa = PBXBuildFile; fileRef = F34107461ECF390F00F3F765 /* ForParents.sks */; };
+		F34BBDE01E721258004B91E2 /* GameMonkey.sks in Resources */ = {isa = PBXBuildFile; fileRef = F34BBDDF1E721258004B91E2 /* GameMonkey.sks */; };
+		F34BBDE21E72128D004B91E2 /* GameMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BBDE11E72128D004B91E2 /* GameMonkey.swift */; };
+		F34BBDE41E72129D004B91E2 /* GameCock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BBDE31E72129D004B91E2 /* GameCock.swift */; };
+		F34BBDE61E7212AE004B91E2 /* GameCock.sks in Resources */ = {isa = PBXBuildFile; fileRef = F34BBDE51E7212AE004B91E2 /* GameCock.sks */; };
+		F35F02301EA0E7C200A15C81 /* domestic_cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = F35F022F1EA0E7C200A15C81 /* domestic_cat.wav */; };
+		F37DC7981E6ED71800FF507D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC7971E6ED71800FF507D /* AppDelegate.swift */; };
+		F37DC79A1E6ED71800FF507D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7991E6ED71800FF507D /* GameScene.sks */; };
+		F37DC79C1E6ED71800FF507D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F37DC79B1E6ED71800FF507D /* Actions.sks */; };
+		F37DC79E1E6ED71800FF507D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC79D1E6ED71800FF507D /* GameScene.swift */; };
+		F37DC7A01E6ED71800FF507D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC79F1E6ED71800FF507D /* GameViewController.swift */; };
+		F37DC7A31E6ED71800FF507D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7A11E6ED71800FF507D /* Main.storyboard */; };
+		F37DC7A81E6ED71800FF507D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7A61E6ED71800FF507D /* LaunchScreen.storyboard */; };
+		F37DC7B31E6ED71900FF507D /* CaluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC7B21E6ED71900FF507D /* CaluTests.swift */; };
+		F37DC7BE1E6ED71900FF507D /* CaluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC7BD1E6ED71900FF507D /* CaluUITests.swift */; };
+		F37DC7CD1E6ED7A400FF507D /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7CB1E6ED7A400FF507D /* MenuScene.sks */; };
+		F37DC7CE1E6ED7A400FF507D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DC7CC1E6ED7A400FF507D /* MenuScene.swift */; };
+		F37DC7D21E6ED7CD00FF507D /* cock.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7CF1E6ED7CD00FF507D /* cock.atlas */; };
+		F37DC7D31E6ED7CD00FF507D /* monkey.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7D01E6ED7CD00FF507D /* monkey.atlas */; };
+		F37DC7D41E6ED7CD00FF507D /* mouse.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7D11E6ED7CD00FF507D /* mouse.atlas */; };
+		F37DC7D61E6ED8BF00FF507D /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F37DC7D51E6ED8BF00FF507D /* menu.mp3 */; };
+		F3967C731F19404600389600 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3967C721F19404600389600 /* intro.mp3 */; };
+		F3967C771F19456C00389600 /* CALU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3967C751F19456C00389600 /* CALU.mp3 */; };
+		F3967C781F19456C00389600 /* Kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3967C761F19456C00389600 /* Kids.mp3 */; };
+		F396E5D91EE6FA8500DB7FF1 /* stars.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F396E5D81EE6FA8500DB7FF1 /* stars.atlas */; };
+		F3A098B11EC6598E001DC06D /* ParentsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A098B01EC6598E001DC06D /* ParentsInfo.swift */; };
+		F3A098B31EC659CB001DC06D /* ParentsInfo.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3A098B21EC659CB001DC06D /* ParentsInfo.sks */; };
+		F3AB81D41E71E3F70014D6A6 /* GameMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AB81D31E71E3F70014D6A6 /* GameMouse.swift */; };
+		F3AB81D61E71E44E0014D6A6 /* GameMouse.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3AB81D51E71E44E0014D6A6 /* GameMouse.sks */; };
+		F3B605A71ECB5C5600C968C2 /* TimerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B605A61ECB5C5600C968C2 /* TimerScene.swift */; };
+		F3B605A91ECB5C6200C968C2 /* TimerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3B605A81ECB5C6200C968C2 /* TimerScene.sks */; };
+		F3B9AB751E76CB89005BDD0D /* Nodes in Resources */ = {isa = PBXBuildFile; fileRef = F3B9AB741E76CB89005BDD0D /* Nodes */; };
+		F3D4E6491E834C3D00CEB56A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4E6481E834C3D00CEB56A /* Animal.swift */; };
+		F3D4E64B1E83EBAC00CEB56A /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4E64A1E83EBAC00CEB56A /* Food.swift */; };
+		F3DCCF231EE5C305008B7FBA /* wild_bear_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFA1EE5C305008B7FBA /* wild_bear_habitat.atlas */; };
+		F3DCCF241EE5C305008B7FBA /* wild_bear_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFB1EE5C305008B7FBA /* wild_bear_sing.atlas */; };
+		F3DCCF251EE5C305008B7FBA /* wild_bear_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFC1EE5C305008B7FBA /* wild_bear_walk.atlas */; };
+		F3DCCF261EE5C305008B7FBA /* wild_bird_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFD1EE5C305008B7FBA /* wild_bird_eat.atlas */; };
+		F3DCCF271EE5C305008B7FBA /* wild_bird_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFE1EE5C305008B7FBA /* wild_bird_habitat.atlas */; };
+		F3DCCF281EE5C305008B7FBA /* wild_bird_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCEFF1EE5C305008B7FBA /* wild_bird_sing.atlas */; };
+		F3DCCF291EE5C305008B7FBA /* wild_bird_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF001EE5C305008B7FBA /* wild_bird_walk.atlas */; };
+		F3DCCF2A1EE5C305008B7FBA /* wild_camel_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF011EE5C305008B7FBA /* wild_camel_habitat.atlas */; };
+		F3DCCF2B1EE5C305008B7FBA /* wild_camel_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF021EE5C305008B7FBA /* wild_camel_sing.atlas */; };
+		F3DCCF2C1EE5C305008B7FBA /* wild_camel_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF031EE5C305008B7FBA /* wild_camel_walk.atlas */; };
+		F3DCCF2D1EE5C305008B7FBA /* wild_dolphin_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF041EE5C305008B7FBA /* wild_dolphin_eat.atlas */; };
+		F3DCCF2E1EE5C305008B7FBA /* wild_dolphin_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF051EE5C305008B7FBA /* wild_dolphin_habitat.atlas */; };
+		F3DCCF2F1EE5C305008B7FBA /* wild_dolphin_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF061EE5C305008B7FBA /* wild_dolphin_sing.atlas */; };
+		F3DCCF301EE5C305008B7FBA /* wild_dolphin_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF071EE5C305008B7FBA /* wild_dolphin_walk.atlas */; };
+		F3DCCF311EE5C305008B7FBA /* wild_elephant_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF081EE5C305008B7FBA /* wild_elephant_eat.atlas */; };
+		F3DCCF321EE5C305008B7FBA /* wild_elephant_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF091EE5C305008B7FBA /* wild_elephant_habitat.atlas */; };
+		F3DCCF331EE5C305008B7FBA /* wild_elephant_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0A1EE5C305008B7FBA /* wild_elephant_sing.atlas */; };
+		F3DCCF341EE5C305008B7FBA /* wild_elephant_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0B1EE5C305008B7FBA /* wild_elephant_walk.atlas */; };
+		F3DCCF351EE5C305008B7FBA /* wild_giraffe_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0C1EE5C305008B7FBA /* wild_giraffe_eat.atlas */; };
+		F3DCCF361EE5C305008B7FBA /* wild_lion_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0D1EE5C305008B7FBA /* wild_lion_eat.atlas */; };
+		F3DCCF371EE5C305008B7FBA /* wild_lion_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0E1EE5C305008B7FBA /* wild_lion_habitat.atlas */; };
+		F3DCCF381EE5C305008B7FBA /* wild_lion_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF0F1EE5C305008B7FBA /* wild_lion_sing.atlas */; };
+		F3DCCF391EE5C305008B7FBA /* wild_lion_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF101EE5C305008B7FBA /* wild_lion_walk.atlas */; };
+		F3DCCF3A1EE5C305008B7FBA /* wild_monkey_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF111EE5C305008B7FBA /* wild_monkey_eat.atlas */; };
+		F3DCCF3B1EE5C305008B7FBA /* wild_monkey_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF121EE5C305008B7FBA /* wild_monkey_sing.atlas */; };
+		F3DCCF3C1EE5C305008B7FBA /* wild_monkey_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF131EE5C305008B7FBA /* wild_monkey_walk.atlas */; };
+		F3DCCF3D1EE5C305008B7FBA /* wild_seal_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF141EE5C305008B7FBA /* wild_seal_eat.atlas */; };
+		F3DCCF3E1EE5C305008B7FBA /* wild_seal_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF151EE5C305008B7FBA /* wild_seal_habitat.atlas */; };
+		F3DCCF3F1EE5C305008B7FBA /* wild_seal_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF161EE5C305008B7FBA /* wild_seal_sing.atlas */; };
+		F3DCCF401EE5C305008B7FBA /* wild_seal_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF171EE5C305008B7FBA /* wild_seal_walk.atlas */; };
+		F3DCCF411EE5C305008B7FBA /* wild_snake_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF181EE5C305008B7FBA /* wild_snake_habitat.atlas */; };
+		F3DCCF421EE5C305008B7FBA /* wild_snake_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF191EE5C305008B7FBA /* wild_snake_sing.atlas */; };
+		F3DCCF431EE5C305008B7FBA /* wild_snake_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1A1EE5C305008B7FBA /* wild_snake_walk.atlas */; };
+		F3DCCF441EE5C305008B7FBA /* wild_wolf_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1B1EE5C305008B7FBA /* wild_wolf_eat.atlas */; };
+		F3DCCF451EE5C305008B7FBA /* wild_wolf_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1C1EE5C305008B7FBA /* wild_wolf_habitat.atlas */; };
+		F3DCCF461EE5C305008B7FBA /* wild_wolf_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1D1EE5C305008B7FBA /* wild_wolf_sing.atlas */; };
+		F3DCCF471EE5C305008B7FBA /* wild_wolf_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1E1EE5C305008B7FBA /* wild_wolf_walk.atlas */; };
+		F3DCCF481EE5C305008B7FBA /* wild_zebra_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF1F1EE5C305008B7FBA /* wild_zebra_eat.atlas */; };
+		F3DCCF491EE5C305008B7FBA /* wild_zebra_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF201EE5C305008B7FBA /* wild_zebra_habitat.atlas */; };
+		F3DCCF4A1EE5C305008B7FBA /* wild_zebra_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF211EE5C305008B7FBA /* wild_zebra_sing.atlas */; };
+		F3DCCF4B1EE5C305008B7FBA /* wild_zebra_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF221EE5C305008B7FBA /* wild_zebra_walk.atlas */; };
+		F3DCCF751EE5C323008B7FBA /* domestic_cat_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF4D1EE5C323008B7FBA /* domestic_cat_eat.atlas */; };
+		F3DCCF761EE5C323008B7FBA /* domestic_cat_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF4E1EE5C323008B7FBA /* domestic_cat_habitat.atlas */; };
+		F3DCCF771EE5C323008B7FBA /* domestic_cat_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF4F1EE5C323008B7FBA /* domestic_cat_sing.atlas */; };
+		F3DCCF781EE5C323008B7FBA /* domestic_cat_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF501EE5C323008B7FBA /* domestic_cat_walk.atlas */; };
+		F3DCCF791EE5C323008B7FBA /* domestic_cock_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF511EE5C323008B7FBA /* domestic_cock_eat.atlas */; };
+		F3DCCF7A1EE5C323008B7FBA /* domestic_cock_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF521EE5C323008B7FBA /* domestic_cock_habitat.atlas */; };
+		F3DCCF7B1EE5C323008B7FBA /* domestic_cock_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF531EE5C323008B7FBA /* domestic_cock_sing.atlas */; };
+		F3DCCF7C1EE5C323008B7FBA /* domestic_cock_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF541EE5C323008B7FBA /* domestic_cock_walk.atlas */; };
+		F3DCCF7D1EE5C323008B7FBA /* domestic_cow_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF551EE5C323008B7FBA /* domestic_cow_eat.atlas */; };
+		F3DCCF7E1EE5C323008B7FBA /* domestic_cow_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF561EE5C323008B7FBA /* domestic_cow_habitat.atlas */; };
+		F3DCCF7F1EE5C323008B7FBA /* domestic_cow_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF571EE5C323008B7FBA /* domestic_cow_sing.atlas */; };
+		F3DCCF801EE5C323008B7FBA /* domestic_cow_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF581EE5C323008B7FBA /* domestic_cow_walk.atlas */; };
+		F3DCCF811EE5C323008B7FBA /* domestic_dog_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF591EE5C323008B7FBA /* domestic_dog_eat.atlas */; };
+		F3DCCF821EE5C323008B7FBA /* domestic_dog_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5A1EE5C323008B7FBA /* domestic_dog_habitat.atlas */; };
+		F3DCCF831EE5C323008B7FBA /* domestic_dog_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5B1EE5C323008B7FBA /* domestic_dog_sing.atlas */; };
+		F3DCCF841EE5C323008B7FBA /* domestic_dog_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5C1EE5C323008B7FBA /* domestic_dog_walk.atlas */; };
+		F3DCCF851EE5C323008B7FBA /* domestic_donkey_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5D1EE5C323008B7FBA /* domestic_donkey_eat.atlas */; };
+		F3DCCF861EE5C323008B7FBA /* domestic_donkey_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5E1EE5C323008B7FBA /* domestic_donkey_habitat.atlas */; };
+		F3DCCF871EE5C323008B7FBA /* domestic_donkey_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF5F1EE5C323008B7FBA /* domestic_donkey_sing.atlas */; };
+		F3DCCF881EE5C323008B7FBA /* domestic_donkey_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF601EE5C323008B7FBA /* domestic_donkey_walk.atlas */; };
+		F3DCCF891EE5C323008B7FBA /* domestic_duck_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF611EE5C323008B7FBA /* domestic_duck_habitat.atlas */; };
+		F3DCCF8A1EE5C323008B7FBA /* domestic_duck_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF621EE5C323008B7FBA /* domestic_duck_sing.atlas */; };
+		F3DCCF8B1EE5C323008B7FBA /* domestic_duck_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF631EE5C323008B7FBA /* domestic_duck_walk.atlas */; };
+		F3DCCF8C1EE5C323008B7FBA /* domestic_frog_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF641EE5C323008B7FBA /* domestic_frog_eat.atlas */; };
+		F3DCCF8D1EE5C323008B7FBA /* domestic_frog_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF651EE5C323008B7FBA /* domestic_frog_habitat.atlas */; };
+		F3DCCF8E1EE5C323008B7FBA /* domestic_frog_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF661EE5C323008B7FBA /* domestic_frog_sing.atlas */; };
+		F3DCCF8F1EE5C323008B7FBA /* domestic_frog_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF671EE5C323008B7FBA /* domestic_frog_walk.atlas */; };
+		F3DCCF901EE5C323008B7FBA /* domestic_horse_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF681EE5C323008B7FBA /* domestic_horse_eat.atlas */; };
+		F3DCCF911EE5C323008B7FBA /* domestic_horse_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF691EE5C323008B7FBA /* domestic_horse_habitat.atlas */; };
+		F3DCCF921EE5C323008B7FBA /* domestic_horse_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6A1EE5C323008B7FBA /* domestic_horse_sing.atlas */; };
+		F3DCCF931EE5C323008B7FBA /* domestic_horse_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6B1EE5C323008B7FBA /* domestic_horse_walk.atlas */; };
+		F3DCCF941EE5C323008B7FBA /* domestic_pig_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6C1EE5C323008B7FBA /* domestic_pig_eat.atlas */; };
+		F3DCCF951EE5C323008B7FBA /* domestic_pig_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6D1EE5C323008B7FBA /* domestic_pig_habitat.atlas */; };
+		F3DCCF961EE5C323008B7FBA /* domestic_pig_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6E1EE5C323008B7FBA /* domestic_pig_sing.atlas */; };
+		F3DCCF971EE5C323008B7FBA /* domestic_pig_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF6F1EE5C323008B7FBA /* domestic_pig_walk.atlas */; };
+		F3DCCF981EE5C323008B7FBA /* domestic_rabbit_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF701EE5C323008B7FBA /* domestic_rabbit_eat.atlas */; };
+		F3DCCF991EE5C323008B7FBA /* domestic_sheep_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF711EE5C323008B7FBA /* domestic_sheep_eat.atlas */; };
+		F3DCCF9A1EE5C323008B7FBA /* domestic_sheep_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF721EE5C323008B7FBA /* domestic_sheep_habitat.atlas */; };
+		F3DCCF9B1EE5C323008B7FBA /* domestic_sheep_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF731EE5C323008B7FBA /* domestic_sheep_sing.atlas */; };
+		F3DCCF9C1EE5C323008B7FBA /* domestic_sheep_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF741EE5C323008B7FBA /* domestic_sheep_walk.atlas */; };
+		F3DCCF9E1EE5C50C008B7FBA /* wild_monkey_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3DCCF9D1EE5C50C008B7FBA /* wild_monkey_habitat.atlas */; };
+		F3F87A751EE57BF80005E100 /* Quicksand_Bold_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A6E1EE57BF80005E100 /* Quicksand_Bold_Oblique.otf */; };
+		F3F87A761EE57BF80005E100 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A6F1EE57BF80005E100 /* Quicksand_Bold.otf */; };
+		F3F87A771EE57BF80005E100 /* Quicksand_Book_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A701EE57BF80005E100 /* Quicksand_Book_Oblique.otf */; };
+		F3F87A781EE57BF80005E100 /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A711EE57BF80005E100 /* Quicksand_Book.otf */; };
+		F3F87A791EE57BF80005E100 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A721EE57BF80005E100 /* Quicksand_Dash.otf */; };
+		F3F87A7A1EE57BF80005E100 /* Quicksand_Light_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A731EE57BF80005E100 /* Quicksand_Light_Oblique.otf */; };
+		F3F87A7B1EE57BF80005E100 /* Quicksand_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3F87A741EE57BF80005E100 /* Quicksand_Light.otf */; };
+		F3FD64421EC748D0008B03DC /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3FD64401EC748D0008B03DC /* CoreDataModel.xcdatamodeld */; };
+		F3FD64471EC74AE1008B03DC /* Wrong+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD64431EC74AE1008B03DC /* Wrong+CoreDataClass.swift */; };
+		F3FD64481EC74AE1008B03DC /* Wrong+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD64441EC74AE1008B03DC /* Wrong+CoreDataProperties.swift */; };
+		F3FD64491EC74AE1008B03DC /* Correct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD64451EC74AE1008B03DC /* Correct+CoreDataClass.swift */; };
+		F3FD644A1EC74AE1008B03DC /* Correct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD64461EC74AE1008B03DC /* Correct+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44DB0531ED86405002E1119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44DB04E1ED86405002E1119 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		A44DB0551ED86405002E1119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44DB04E1ED86405002E1119 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		A44DB0591ED8645D002E1119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44DB04E1ED86405002E1119 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
+		F37DC7AF1E6ED71900FF507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37DC78C1E6ED71800FF507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37DC7931E6ED71800FF507D;
+			remoteInfo = Calu;
+		};
+		F37DC7BA1E6ED71900FF507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37DC78C1E6ED71800FF507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37DC7931E6ED71800FF507D;
+			remoteInfo = Calu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F34107551ED0A26C00F3F765 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A44DB0581ED8645D002E1119 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A43376341EE3A06800B218E3 /* bye.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bye.atlas; sourceTree = "<group>"; };
+		A44DB04E1ED86405002E1119 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		F3189A411E7196F300066C22 /* SpriteKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKit.swift; sourceTree = "<group>"; };
+		F31C9B561ED43F490047F10E /* ByeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ByeScene.sks; sourceTree = "<group>"; };
+		F31C9B591ED43F590047F10E /* ByeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByeScene.swift; sourceTree = "<group>"; };
+		F3236DF51E9FC7CC0003F8B9 /* wild_bear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_bear.wav; sourceTree = "<group>"; };
+		F3236DF61E9FC7CC0003F8B9 /* wild_bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_bird.wav; sourceTree = "<group>"; };
+		F3236DF71E9FC7CC0003F8B9 /* wild_camel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_camel.wav; sourceTree = "<group>"; };
+		F3236DF91E9FC7CC0003F8B9 /* domestic_cock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_cock.wav; sourceTree = "<group>"; };
+		F3236DFA1E9FC7CC0003F8B9 /* domestic_cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_cow.wav; sourceTree = "<group>"; };
+		F3236DFB1E9FC7CC0003F8B9 /* domestic_dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_dog.wav; sourceTree = "<group>"; };
+		F3236DFC1E9FC7CC0003F8B9 /* wild_dolphin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_dolphin.wav; sourceTree = "<group>"; };
+		F3236DFD1E9FC7CC0003F8B9 /* domestic_donkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_donkey.wav; sourceTree = "<group>"; };
+		F3236DFE1E9FC7CC0003F8B9 /* domestic_duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_duck.wav; sourceTree = "<group>"; };
+		F3236DFF1E9FC7CC0003F8B9 /* wild_elephant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_elephant.wav; sourceTree = "<group>"; };
+		F3236E001E9FC7CC0003F8B9 /* domestic_frog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_frog.wav; sourceTree = "<group>"; };
+		F3236E011E9FC7CC0003F8B9 /* domestic_horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_horse.wav; sourceTree = "<group>"; };
+		F3236E021E9FC7CC0003F8B9 /* wild_lion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_lion.wav; sourceTree = "<group>"; };
+		F3236E031E9FC7CC0003F8B9 /* wild_monkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_monkey.wav; sourceTree = "<group>"; };
+		F3236E041E9FC7CC0003F8B9 /* domestic_pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_pig.wav; sourceTree = "<group>"; };
+		F3236E051E9FC7CC0003F8B9 /* wild_seal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_seal.wav; sourceTree = "<group>"; };
+		F3236E061E9FC7CC0003F8B9 /* domestic_sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_sheep.wav; sourceTree = "<group>"; };
+		F3236E071E9FC7CC0003F8B9 /* wild_snake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_snake.wav; sourceTree = "<group>"; };
+		F3236E081E9FC7CC0003F8B9 /* wild_wolf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_wolf.wav; sourceTree = "<group>"; };
+		F3236E091E9FC7CC0003F8B9 /* wild_zebra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_zebra.wav; sourceTree = "<group>"; };
+		F329D1661E896D6900366F92 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		F329D16B1E8978FB00366F92 /* Habitat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habitat.swift; sourceTree = "<group>"; };
+		F331FB5F1ECE46CD009F1973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F332B3411EC4958900369FBC /* ForParents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForParents.swift; sourceTree = "<group>"; };
+		F34107461ECF390F00F3F765 /* ForParents.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForParents.sks; sourceTree = "<group>"; };
+		F34BBDDF1E721258004B91E2 /* GameMonkey.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMonkey.sks; sourceTree = "<group>"; };
+		F34BBDE11E72128D004B91E2 /* GameMonkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMonkey.swift; sourceTree = "<group>"; };
+		F34BBDE31E72129D004B91E2 /* GameCock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCock.swift; sourceTree = "<group>"; };
+		F34BBDE51E7212AE004B91E2 /* GameCock.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameCock.sks; sourceTree = "<group>"; };
+		F35F022F1EA0E7C200A15C81 /* domestic_cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_cat.wav; sourceTree = "<group>"; };
+		F36A784C1EC52E2D00C7F920 /* Calu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calu-Bridging-Header.h"; sourceTree = "<group>"; };
+		F37DC7941E6ED71800FF507D /* Calu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DC7971E6ED71800FF507D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F37DC7991E6ED71800FF507D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F37DC79B1E6ED71800FF507D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F37DC79D1E6ED71800FF507D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F37DC79F1E6ED71800FF507D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F37DC7A21E6ED71800FF507D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37DC7A71E6ED71800FF507D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F37DC7A91E6ED71800FF507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37DC7AE1E6ED71900FF507D /* CaluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DC7B21E6ED71900FF507D /* CaluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaluTests.swift; sourceTree = "<group>"; };
+		F37DC7B41E6ED71900FF507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37DC7B91E6ED71900FF507D /* CaluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DC7BD1E6ED71900FF507D /* CaluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaluUITests.swift; sourceTree = "<group>"; };
+		F37DC7BF1E6ED71900FF507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37DC7CB1E6ED7A400FF507D /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		F37DC7CC1E6ED7A400FF507D /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F37DC7CF1E6ED7CD00FF507D /* cock.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cock.atlas; sourceTree = "<group>"; };
+		F37DC7D01E6ED7CD00FF507D /* monkey.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = monkey.atlas; sourceTree = "<group>"; };
+		F37DC7D11E6ED7CD00FF507D /* mouse.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = mouse.atlas; sourceTree = "<group>"; };
+		F37DC7D51E6ED8BF00FF507D /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		F3967C721F19404600389600 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		F3967C751F19456C00389600 /* CALU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CALU.mp3; sourceTree = "<group>"; };
+		F3967C761F19456C00389600 /* Kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kids.mp3; sourceTree = "<group>"; };
+		F396E5D81EE6FA8500DB7FF1 /* stars.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stars.atlas; sourceTree = "<group>"; };
+		F3A098B01EC6598E001DC06D /* ParentsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsInfo.swift; sourceTree = "<group>"; };
+		F3A098B21EC659CB001DC06D /* ParentsInfo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParentsInfo.sks; sourceTree = "<group>"; };
+		F3AB81D31E71E3F70014D6A6 /* GameMouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GameMouse.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3AB81D51E71E44E0014D6A6 /* GameMouse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMouse.sks; sourceTree = "<group>"; };
+		F3B605A61ECB5C5600C968C2 /* TimerScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerScene.swift; path = ../TimerScene.swift; sourceTree = "<group>"; };
+		F3B605A81ECB5C6200C968C2 /* TimerScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = TimerScene.sks; path = ../TimerScene.sks; sourceTree = "<group>"; };
+		F3B9AB741E76CB89005BDD0D /* Nodes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Nodes; sourceTree = "<group>"; };
+		F3D4E6481E834C3D00CEB56A /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F3D4E64A1E83EBAC00CEB56A /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F3DCCEFA1EE5C305008B7FBA /* wild_bear_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bear_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCEFB1EE5C305008B7FBA /* wild_bear_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bear_sing.atlas; sourceTree = "<group>"; };
+		F3DCCEFC1EE5C305008B7FBA /* wild_bear_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bear_walk.atlas; sourceTree = "<group>"; };
+		F3DCCEFD1EE5C305008B7FBA /* wild_bird_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bird_eat.atlas; sourceTree = "<group>"; };
+		F3DCCEFE1EE5C305008B7FBA /* wild_bird_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bird_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCEFF1EE5C305008B7FBA /* wild_bird_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bird_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF001EE5C305008B7FBA /* wild_bird_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_bird_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF011EE5C305008B7FBA /* wild_camel_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_camel_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF021EE5C305008B7FBA /* wild_camel_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_camel_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF031EE5C305008B7FBA /* wild_camel_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_camel_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF041EE5C305008B7FBA /* wild_dolphin_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_dolphin_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF051EE5C305008B7FBA /* wild_dolphin_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_dolphin_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF061EE5C305008B7FBA /* wild_dolphin_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_dolphin_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF071EE5C305008B7FBA /* wild_dolphin_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_dolphin_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF081EE5C305008B7FBA /* wild_elephant_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_elephant_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF091EE5C305008B7FBA /* wild_elephant_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_elephant_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF0A1EE5C305008B7FBA /* wild_elephant_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_elephant_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF0B1EE5C305008B7FBA /* wild_elephant_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_elephant_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF0C1EE5C305008B7FBA /* wild_giraffe_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_giraffe_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF0D1EE5C305008B7FBA /* wild_lion_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_lion_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF0E1EE5C305008B7FBA /* wild_lion_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_lion_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF0F1EE5C305008B7FBA /* wild_lion_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_lion_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF101EE5C305008B7FBA /* wild_lion_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_lion_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF111EE5C305008B7FBA /* wild_monkey_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF121EE5C305008B7FBA /* wild_monkey_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF131EE5C305008B7FBA /* wild_monkey_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF141EE5C305008B7FBA /* wild_seal_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_seal_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF151EE5C305008B7FBA /* wild_seal_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_seal_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF161EE5C305008B7FBA /* wild_seal_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_seal_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF171EE5C305008B7FBA /* wild_seal_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_seal_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF181EE5C305008B7FBA /* wild_snake_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_snake_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF191EE5C305008B7FBA /* wild_snake_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_snake_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF1A1EE5C305008B7FBA /* wild_snake_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_snake_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF1B1EE5C305008B7FBA /* wild_wolf_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_wolf_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF1C1EE5C305008B7FBA /* wild_wolf_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_wolf_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF1D1EE5C305008B7FBA /* wild_wolf_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_wolf_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF1E1EE5C305008B7FBA /* wild_wolf_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_wolf_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF1F1EE5C305008B7FBA /* wild_zebra_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_zebra_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF201EE5C305008B7FBA /* wild_zebra_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_zebra_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF211EE5C305008B7FBA /* wild_zebra_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_zebra_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF221EE5C305008B7FBA /* wild_zebra_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_zebra_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF4D1EE5C323008B7FBA /* domestic_cat_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cat_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF4E1EE5C323008B7FBA /* domestic_cat_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cat_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF4F1EE5C323008B7FBA /* domestic_cat_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cat_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF501EE5C323008B7FBA /* domestic_cat_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cat_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF511EE5C323008B7FBA /* domestic_cock_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF521EE5C323008B7FBA /* domestic_cock_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF531EE5C323008B7FBA /* domestic_cock_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF541EE5C323008B7FBA /* domestic_cock_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF551EE5C323008B7FBA /* domestic_cow_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cow_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF561EE5C323008B7FBA /* domestic_cow_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cow_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF571EE5C323008B7FBA /* domestic_cow_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cow_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF581EE5C323008B7FBA /* domestic_cow_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cow_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF591EE5C323008B7FBA /* domestic_dog_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_dog_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF5A1EE5C323008B7FBA /* domestic_dog_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_dog_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF5B1EE5C323008B7FBA /* domestic_dog_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_dog_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF5C1EE5C323008B7FBA /* domestic_dog_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_dog_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF5D1EE5C323008B7FBA /* domestic_donkey_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_donkey_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF5E1EE5C323008B7FBA /* domestic_donkey_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_donkey_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF5F1EE5C323008B7FBA /* domestic_donkey_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_donkey_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF601EE5C323008B7FBA /* domestic_donkey_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_donkey_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF611EE5C323008B7FBA /* domestic_duck_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_duck_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF621EE5C323008B7FBA /* domestic_duck_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_duck_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF631EE5C323008B7FBA /* domestic_duck_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_duck_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF641EE5C323008B7FBA /* domestic_frog_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_frog_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF651EE5C323008B7FBA /* domestic_frog_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_frog_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF661EE5C323008B7FBA /* domestic_frog_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_frog_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF671EE5C323008B7FBA /* domestic_frog_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_frog_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF681EE5C323008B7FBA /* domestic_horse_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF691EE5C323008B7FBA /* domestic_horse_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF6A1EE5C323008B7FBA /* domestic_horse_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF6B1EE5C323008B7FBA /* domestic_horse_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF6C1EE5C323008B7FBA /* domestic_pig_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_pig_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF6D1EE5C323008B7FBA /* domestic_pig_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_pig_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF6E1EE5C323008B7FBA /* domestic_pig_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_pig_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF6F1EE5C323008B7FBA /* domestic_pig_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_pig_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF701EE5C323008B7FBA /* domestic_rabbit_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_rabbit_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF711EE5C323008B7FBA /* domestic_sheep_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_sheep_eat.atlas; sourceTree = "<group>"; };
+		F3DCCF721EE5C323008B7FBA /* domestic_sheep_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_sheep_habitat.atlas; sourceTree = "<group>"; };
+		F3DCCF731EE5C323008B7FBA /* domestic_sheep_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_sheep_sing.atlas; sourceTree = "<group>"; };
+		F3DCCF741EE5C323008B7FBA /* domestic_sheep_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_sheep_walk.atlas; sourceTree = "<group>"; };
+		F3DCCF9D1EE5C50C008B7FBA /* wild_monkey_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_habitat.atlas; sourceTree = "<group>"; };
+		F3F87A6E1EE57BF80005E100 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
+		F3F87A6F1EE57BF80005E100 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold.otf; sourceTree = "<group>"; };
+		F3F87A701EE57BF80005E100 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		F3F87A711EE57BF80005E100 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book.otf; sourceTree = "<group>"; };
+		F3F87A721EE57BF80005E100 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		F3F87A731EE57BF80005E100 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		F3F87A741EE57BF80005E100 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light.otf; sourceTree = "<group>"; };
+		F3FD64411EC748D0008B03DC /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F3FD64431EC74AE1008B03DC /* Wrong+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wrong+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3FD64441EC74AE1008B03DC /* Wrong+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wrong+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3FD64451EC74AE1008B03DC /* Correct+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Correct+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3FD64461EC74AE1008B03DC /* Correct+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Correct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37DC7911E6ED71800FF507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44DB0571ED8645D002E1119 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7AB1E6ED71900FF507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7B61E6ED71900FF507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44DB04F1ED86405002E1119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44DB0541ED86405002E1119 /* Charts.framework */,
+				A44DB0561ED86405002E1119 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3236DF41E9FC7A40003F8B9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F3236DF51E9FC7CC0003F8B9 /* wild_bear.wav */,
+				F3236DF61E9FC7CC0003F8B9 /* wild_bird.wav */,
+				F3236DF71E9FC7CC0003F8B9 /* wild_camel.wav */,
+				F35F022F1EA0E7C200A15C81 /* domestic_cat.wav */,
+				F3236DF91E9FC7CC0003F8B9 /* domestic_cock.wav */,
+				F3236DFA1E9FC7CC0003F8B9 /* domestic_cow.wav */,
+				F3236DFB1E9FC7CC0003F8B9 /* domestic_dog.wav */,
+				F3236DFC1E9FC7CC0003F8B9 /* wild_dolphin.wav */,
+				F3236DFD1E9FC7CC0003F8B9 /* domestic_donkey.wav */,
+				F3236DFE1E9FC7CC0003F8B9 /* domestic_duck.wav */,
+				F3236DFF1E9FC7CC0003F8B9 /* wild_elephant.wav */,
+				F3236E001E9FC7CC0003F8B9 /* domestic_frog.wav */,
+				F3236E011E9FC7CC0003F8B9 /* domestic_horse.wav */,
+				F3236E021E9FC7CC0003F8B9 /* wild_lion.wav */,
+				F3236E031E9FC7CC0003F8B9 /* wild_monkey.wav */,
+				F3236E041E9FC7CC0003F8B9 /* domestic_pig.wav */,
+				F3236E051E9FC7CC0003F8B9 /* wild_seal.wav */,
+				F3236E061E9FC7CC0003F8B9 /* domestic_sheep.wav */,
+				F3236E071E9FC7CC0003F8B9 /* wild_snake.wav */,
+				F3236E081E9FC7CC0003F8B9 /* wild_wolf.wav */,
+				F3236E091E9FC7CC0003F8B9 /* wild_zebra.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		F340A9841E9945C5007C3943 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F396E5D81EE6FA8500DB7FF1 /* stars.atlas */,
+				F3DCCF9D1EE5C50C008B7FBA /* wild_monkey_habitat.atlas */,
+				F3DCCF4D1EE5C323008B7FBA /* domestic_cat_eat.atlas */,
+				F3DCCF4E1EE5C323008B7FBA /* domestic_cat_habitat.atlas */,
+				F3DCCF4F1EE5C323008B7FBA /* domestic_cat_sing.atlas */,
+				F3DCCF501EE5C323008B7FBA /* domestic_cat_walk.atlas */,
+				F3DCCF511EE5C323008B7FBA /* domestic_cock_eat.atlas */,
+				F3DCCF521EE5C323008B7FBA /* domestic_cock_habitat.atlas */,
+				F3DCCF531EE5C323008B7FBA /* domestic_cock_sing.atlas */,
+				F3DCCF541EE5C323008B7FBA /* domestic_cock_walk.atlas */,
+				F3DCCF551EE5C323008B7FBA /* domestic_cow_eat.atlas */,
+				F3DCCF561EE5C323008B7FBA /* domestic_cow_habitat.atlas */,
+				F3DCCF571EE5C323008B7FBA /* domestic_cow_sing.atlas */,
+				F3DCCF581EE5C323008B7FBA /* domestic_cow_walk.atlas */,
+				F3DCCF591EE5C323008B7FBA /* domestic_dog_eat.atlas */,
+				F3DCCF5A1EE5C323008B7FBA /* domestic_dog_habitat.atlas */,
+				F3DCCF5B1EE5C323008B7FBA /* domestic_dog_sing.atlas */,
+				F3DCCF5C1EE5C323008B7FBA /* domestic_dog_walk.atlas */,
+				F3DCCF5D1EE5C323008B7FBA /* domestic_donkey_eat.atlas */,
+				F3DCCF5E1EE5C323008B7FBA /* domestic_donkey_habitat.atlas */,
+				F3DCCF5F1EE5C323008B7FBA /* domestic_donkey_sing.atlas */,
+				F3DCCF601EE5C323008B7FBA /* domestic_donkey_walk.atlas */,
+				F3DCCF611EE5C323008B7FBA /* domestic_duck_habitat.atlas */,
+				F3DCCF621EE5C323008B7FBA /* domestic_duck_sing.atlas */,
+				F3DCCF631EE5C323008B7FBA /* domestic_duck_walk.atlas */,
+				F3DCCF641EE5C323008B7FBA /* domestic_frog_eat.atlas */,
+				F3DCCF651EE5C323008B7FBA /* domestic_frog_habitat.atlas */,
+				F3DCCF661EE5C323008B7FBA /* domestic_frog_sing.atlas */,
+				F3DCCF671EE5C323008B7FBA /* domestic_frog_walk.atlas */,
+				F3DCCF681EE5C323008B7FBA /* domestic_horse_eat.atlas */,
+				F3DCCF691EE5C323008B7FBA /* domestic_horse_habitat.atlas */,
+				F3DCCF6A1EE5C323008B7FBA /* domestic_horse_sing.atlas */,
+				F3DCCF6B1EE5C323008B7FBA /* domestic_horse_walk.atlas */,
+				F3DCCF6C1EE5C323008B7FBA /* domestic_pig_eat.atlas */,
+				F3DCCF6D1EE5C323008B7FBA /* domestic_pig_habitat.atlas */,
+				F3DCCF6E1EE5C323008B7FBA /* domestic_pig_sing.atlas */,
+				F3DCCF6F1EE5C323008B7FBA /* domestic_pig_walk.atlas */,
+				F3DCCF701EE5C323008B7FBA /* domestic_rabbit_eat.atlas */,
+				F3DCCF711EE5C323008B7FBA /* domestic_sheep_eat.atlas */,
+				F3DCCF721EE5C323008B7FBA /* domestic_sheep_habitat.atlas */,
+				F3DCCF731EE5C323008B7FBA /* domestic_sheep_sing.atlas */,
+				F3DCCF741EE5C323008B7FBA /* domestic_sheep_walk.atlas */,
+				F3DCCEFA1EE5C305008B7FBA /* wild_bear_habitat.atlas */,
+				F3DCCEFB1EE5C305008B7FBA /* wild_bear_sing.atlas */,
+				F3DCCEFC1EE5C305008B7FBA /* wild_bear_walk.atlas */,
+				F3DCCEFD1EE5C305008B7FBA /* wild_bird_eat.atlas */,
+				F3DCCEFE1EE5C305008B7FBA /* wild_bird_habitat.atlas */,
+				F3DCCEFF1EE5C305008B7FBA /* wild_bird_sing.atlas */,
+				F3DCCF001EE5C305008B7FBA /* wild_bird_walk.atlas */,
+				F3DCCF011EE5C305008B7FBA /* wild_camel_habitat.atlas */,
+				F3DCCF021EE5C305008B7FBA /* wild_camel_sing.atlas */,
+				F3DCCF031EE5C305008B7FBA /* wild_camel_walk.atlas */,
+				F3DCCF041EE5C305008B7FBA /* wild_dolphin_eat.atlas */,
+				F3DCCF051EE5C305008B7FBA /* wild_dolphin_habitat.atlas */,
+				F3DCCF061EE5C305008B7FBA /* wild_dolphin_sing.atlas */,
+				F3DCCF071EE5C305008B7FBA /* wild_dolphin_walk.atlas */,
+				F3DCCF081EE5C305008B7FBA /* wild_elephant_eat.atlas */,
+				F3DCCF091EE5C305008B7FBA /* wild_elephant_habitat.atlas */,
+				F3DCCF0A1EE5C305008B7FBA /* wild_elephant_sing.atlas */,
+				F3DCCF0B1EE5C305008B7FBA /* wild_elephant_walk.atlas */,
+				F3DCCF0C1EE5C305008B7FBA /* wild_giraffe_eat.atlas */,
+				F3DCCF0D1EE5C305008B7FBA /* wild_lion_eat.atlas */,
+				F3DCCF0E1EE5C305008B7FBA /* wild_lion_habitat.atlas */,
+				F3DCCF0F1EE5C305008B7FBA /* wild_lion_sing.atlas */,
+				F3DCCF101EE5C305008B7FBA /* wild_lion_walk.atlas */,
+				F3DCCF111EE5C305008B7FBA /* wild_monkey_eat.atlas */,
+				F3DCCF121EE5C305008B7FBA /* wild_monkey_sing.atlas */,
+				F3DCCF131EE5C305008B7FBA /* wild_monkey_walk.atlas */,
+				F3DCCF141EE5C305008B7FBA /* wild_seal_eat.atlas */,
+				F3DCCF151EE5C305008B7FBA /* wild_seal_habitat.atlas */,
+				F3DCCF161EE5C305008B7FBA /* wild_seal_sing.atlas */,
+				F3DCCF171EE5C305008B7FBA /* wild_seal_walk.atlas */,
+				F3DCCF181EE5C305008B7FBA /* wild_snake_habitat.atlas */,
+				F3DCCF191EE5C305008B7FBA /* wild_snake_sing.atlas */,
+				F3DCCF1A1EE5C305008B7FBA /* wild_snake_walk.atlas */,
+				F3DCCF1B1EE5C305008B7FBA /* wild_wolf_eat.atlas */,
+				F3DCCF1C1EE5C305008B7FBA /* wild_wolf_habitat.atlas */,
+				F3DCCF1D1EE5C305008B7FBA /* wild_wolf_sing.atlas */,
+				F3DCCF1E1EE5C305008B7FBA /* wild_wolf_walk.atlas */,
+				F3DCCF1F1EE5C305008B7FBA /* wild_zebra_eat.atlas */,
+				F3DCCF201EE5C305008B7FBA /* wild_zebra_habitat.atlas */,
+				F3DCCF211EE5C305008B7FBA /* wild_zebra_sing.atlas */,
+				F3DCCF221EE5C305008B7FBA /* wild_zebra_walk.atlas */,
+				A43376341EE3A06800B218E3 /* bye.atlas */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F37DC78B1E6ED71800FF507D = {
+			isa = PBXGroup;
+			children = (
+				A44DB04E1ED86405002E1119 /* Charts.xcodeproj */,
+				F3FD64431EC74AE1008B03DC /* Wrong+CoreDataClass.swift */,
+				F3FD64441EC74AE1008B03DC /* Wrong+CoreDataProperties.swift */,
+				F3FD64451EC74AE1008B03DC /* Correct+CoreDataClass.swift */,
+				F3FD64461EC74AE1008B03DC /* Correct+CoreDataProperties.swift */,
+				F3FD64401EC748D0008B03DC /* CoreDataModel.xcdatamodeld */,
+				F37DC7961E6ED71800FF507D /* Calu */,
+				F37DC7B11E6ED71900FF507D /* CaluTests */,
+				F37DC7BC1E6ED71900FF507D /* CaluUITests */,
+				F37DC7951E6ED71800FF507D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37DC7951E6ED71800FF507D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37DC7941E6ED71800FF507D /* Calu.app */,
+				F37DC7AE1E6ED71900FF507D /* CaluTests.xctest */,
+				F37DC7B91E6ED71900FF507D /* CaluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37DC7961E6ED71800FF507D /* Calu */ = {
+			isa = PBXGroup;
+			children = (
+				F3F87A6E1EE57BF80005E100 /* Quicksand_Bold_Oblique.otf */,
+				F3F87A6F1EE57BF80005E100 /* Quicksand_Bold.otf */,
+				F3F87A701EE57BF80005E100 /* Quicksand_Book_Oblique.otf */,
+				F3F87A711EE57BF80005E100 /* Quicksand_Book.otf */,
+				F3F87A721EE57BF80005E100 /* Quicksand_Dash.otf */,
+				F3F87A731EE57BF80005E100 /* Quicksand_Light_Oblique.otf */,
+				F3F87A741EE57BF80005E100 /* Quicksand_Light.otf */,
+				F3236DF41E9FC7A40003F8B9 /* Sounds */,
+				F340A9841E9945C5007C3943 /* images */,
+				F37DC7971E6ED71800FF507D /* AppDelegate.swift */,
+				F37DC7D51E6ED8BF00FF507D /* menu.mp3 */,
+				F3967C751F19456C00389600 /* CALU.mp3 */,
+				F3967C761F19456C00389600 /* Kids.mp3 */,
+				F3967C721F19404600389600 /* intro.mp3 */,
+				F37DC79B1E6ED71800FF507D /* Actions.sks */,
+				F37DC7CF1E6ED7CD00FF507D /* cock.atlas */,
+				F37DC7D01E6ED7CD00FF507D /* monkey.atlas */,
+				F37DC7D11E6ED7CD00FF507D /* mouse.atlas */,
+				F3B9AB741E76CB89005BDD0D /* Nodes */,
+				F37DC7991E6ED71800FF507D /* GameScene.sks */,
+				F37DC79D1E6ED71800FF507D /* GameScene.swift */,
+				F37DC7CB1E6ED7A400FF507D /* MenuScene.sks */,
+				F37DC7CC1E6ED7A400FF507D /* MenuScene.swift */,
+				F329D1661E896D6900366F92 /* Alerts.swift */,
+				F34BBDDF1E721258004B91E2 /* GameMonkey.sks */,
+				F34BBDE11E72128D004B91E2 /* GameMonkey.swift */,
+				F34BBDE51E7212AE004B91E2 /* GameCock.sks */,
+				F34BBDE31E72129D004B91E2 /* GameCock.swift */,
+				F34107461ECF390F00F3F765 /* ForParents.sks */,
+				F332B3411EC4958900369FBC /* ForParents.swift */,
+				F3A098B21EC659CB001DC06D /* ParentsInfo.sks */,
+				F3A098B01EC6598E001DC06D /* ParentsInfo.swift */,
+				F3AB81D51E71E44E0014D6A6 /* GameMouse.sks */,
+				F3AB81D31E71E3F70014D6A6 /* GameMouse.swift */,
+				F3B605A61ECB5C5600C968C2 /* TimerScene.swift */,
+				F3B605A81ECB5C6200C968C2 /* TimerScene.sks */,
+				F31C9B561ED43F490047F10E /* ByeScene.sks */,
+				F31C9B591ED43F590047F10E /* ByeScene.swift */,
+				F3D4E6481E834C3D00CEB56A /* Animal.swift */,
+				F3D4E64A1E83EBAC00CEB56A /* Food.swift */,
+				F329D16B1E8978FB00366F92 /* Habitat.swift */,
+				F331FB5F1ECE46CD009F1973 /* Assets.xcassets */,
+				F3189A411E7196F300066C22 /* SpriteKit.swift */,
+				F37DC79F1E6ED71800FF507D /* GameViewController.swift */,
+				F37DC7A11E6ED71800FF507D /* Main.storyboard */,
+				F37DC7A61E6ED71800FF507D /* LaunchScreen.storyboard */,
+				F36A784C1EC52E2D00C7F920 /* Calu-Bridging-Header.h */,
+				F37DC7A91E6ED71800FF507D /* Info.plist */,
+			);
+			path = Calu;
+			sourceTree = "<group>";
+		};
+		F37DC7B11E6ED71900FF507D /* CaluTests */ = {
+			isa = PBXGroup;
+			children = (
+				F37DC7B21E6ED71900FF507D /* CaluTests.swift */,
+				F37DC7B41E6ED71900FF507D /* Info.plist */,
+			);
+			path = CaluTests;
+			sourceTree = "<group>";
+		};
+		F37DC7BC1E6ED71900FF507D /* CaluUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F37DC7BD1E6ED71900FF507D /* CaluUITests.swift */,
+				F37DC7BF1E6ED71900FF507D /* Info.plist */,
+			);
+			path = CaluUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37DC7931E6ED71800FF507D /* Calu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37DC7C21E6ED71900FF507D /* Build configuration list for PBXNativeTarget "Calu" */;
+			buildPhases = (
+				F37DC7901E6ED71800FF507D /* Sources */,
+				F37DC7911E6ED71800FF507D /* Frameworks */,
+				F37DC7921E6ED71800FF507D /* Resources */,
+				F34107551ED0A26C00F3F765 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44DB05A1ED8645D002E1119 /* PBXTargetDependency */,
+			);
+			name = Calu;
+			productName = Calu;
+			productReference = F37DC7941E6ED71800FF507D /* Calu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F37DC7AD1E6ED71900FF507D /* CaluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37DC7C51E6ED71900FF507D /* Build configuration list for PBXNativeTarget "CaluTests" */;
+			buildPhases = (
+				F37DC7AA1E6ED71900FF507D /* Sources */,
+				F37DC7AB1E6ED71900FF507D /* Frameworks */,
+				F37DC7AC1E6ED71900FF507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37DC7B01E6ED71900FF507D /* PBXTargetDependency */,
+			);
+			name = CaluTests;
+			productName = CaluTests;
+			productReference = F37DC7AE1E6ED71900FF507D /* CaluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F37DC7B81E6ED71900FF507D /* CaluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37DC7C81E6ED71900FF507D /* Build configuration list for PBXNativeTarget "CaluUITests" */;
+			buildPhases = (
+				F37DC7B51E6ED71900FF507D /* Sources */,
+				F37DC7B61E6ED71900FF507D /* Frameworks */,
+				F37DC7B71E6ED71900FF507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37DC7BB1E6ED71900FF507D /* PBXTargetDependency */,
+			);
+			name = CaluUITests;
+			productName = CaluUITests;
+			productReference = F37DC7B91E6ED71900FF507D /* CaluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37DC78C1E6ED71800FF507D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ponto Curvo";
+				TargetAttributes = {
+					F37DC7931E6ED71800FF507D = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = V7K8G9CHJ6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					F37DC7AD1E6ED71900FF507D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F37DC7931E6ED71800FF507D;
+					};
+					F37DC7B81E6ED71900FF507D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F37DC7931E6ED71800FF507D;
+					};
+				};
+			};
+			buildConfigurationList = F37DC78F1E6ED71800FF507D /* Build configuration list for PBXProject "Calu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37DC78B1E6ED71800FF507D;
+			productRefGroup = F37DC7951E6ED71800FF507D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A44DB04F1ED86405002E1119 /* Products */;
+					ProjectRef = A44DB04E1ED86405002E1119 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F37DC7931E6ED71800FF507D /* Calu */,
+				F37DC7AD1E6ED71900FF507D /* CaluTests */,
+				F37DC7B81E6ED71900FF507D /* CaluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A44DB0541ED86405002E1119 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A44DB0531ED86405002E1119 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A44DB0561ED86405002E1119 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A44DB0551ED86405002E1119 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37DC7921E6ED71800FF507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DCCF7D1EE5C323008B7FBA /* domestic_cow_eat.atlas in Resources */,
+				F3DCCF7E1EE5C323008B7FBA /* domestic_cow_habitat.atlas in Resources */,
+				F3DCCF871EE5C323008B7FBA /* domestic_donkey_sing.atlas in Resources */,
+				F3DCCF791EE5C323008B7FBA /* domestic_cock_eat.atlas in Resources */,
+				F3DCCF2A1EE5C305008B7FBA /* wild_camel_habitat.atlas in Resources */,
+				F3DCCF7B1EE5C323008B7FBA /* domestic_cock_sing.atlas in Resources */,
+				F3236E0B1E9FC7CC0003F8B9 /* wild_bird.wav in Resources */,
+				F3F87A761EE57BF80005E100 /* Quicksand_Bold.otf in Resources */,
+				F3DCCF381EE5C305008B7FBA /* wild_lion_sing.atlas in Resources */,
+				F3236E181E9FC7CC0003F8B9 /* wild_monkey.wav in Resources */,
+				F3A098B31EC659CB001DC06D /* ParentsInfo.sks in Resources */,
+				F3DCCF781EE5C323008B7FBA /* domestic_cat_walk.atlas in Resources */,
+				F3DCCF391EE5C305008B7FBA /* wild_lion_walk.atlas in Resources */,
+				F3236E151E9FC7CC0003F8B9 /* domestic_frog.wav in Resources */,
+				F3DCCF301EE5C305008B7FBA /* wild_dolphin_walk.atlas in Resources */,
+				F3967C781F19456C00389600 /* Kids.mp3 in Resources */,
+				F37DC7A31E6ED71800FF507D /* Main.storyboard in Resources */,
+				F3967C731F19404600389600 /* intro.mp3 in Resources */,
+				F34107471ECF390F00F3F765 /* ForParents.sks in Resources */,
+				F3DCCF271EE5C305008B7FBA /* wild_bird_habitat.atlas in Resources */,
+				F3DCCF2E1EE5C305008B7FBA /* wild_dolphin_habitat.atlas in Resources */,
+				F3DCCF831EE5C323008B7FBA /* domestic_dog_sing.atlas in Resources */,
+				F3DCCF441EE5C305008B7FBA /* wild_wolf_eat.atlas in Resources */,
+				F3DCCF361EE5C305008B7FBA /* wild_lion_eat.atlas in Resources */,
+				F3236E1E1E9FC7CC0003F8B9 /* wild_zebra.wav in Resources */,
+				F3236E0E1E9FC7CC0003F8B9 /* domestic_cock.wav in Resources */,
+				F3B605A91ECB5C6200C968C2 /* TimerScene.sks in Resources */,
+				F3DCCF341EE5C305008B7FBA /* wild_elephant_walk.atlas in Resources */,
+				F3DCCF311EE5C305008B7FBA /* wild_elephant_eat.atlas in Resources */,
+				F3DCCF7C1EE5C323008B7FBA /* domestic_cock_walk.atlas in Resources */,
+				F3236E0A1E9FC7CC0003F8B9 /* wild_bear.wav in Resources */,
+				F3DCCF951EE5C323008B7FBA /* domestic_pig_habitat.atlas in Resources */,
+				F3236E0C1E9FC7CC0003F8B9 /* wild_camel.wav in Resources */,
+				F3236E161E9FC7CC0003F8B9 /* domestic_horse.wav in Resources */,
+				F3DCCF3D1EE5C305008B7FBA /* wild_seal_eat.atlas in Resources */,
+				F3DCCF991EE5C323008B7FBA /* domestic_sheep_eat.atlas in Resources */,
+				F3DCCF921EE5C323008B7FBA /* domestic_horse_sing.atlas in Resources */,
+				F3236E191E9FC7CC0003F8B9 /* domestic_pig.wav in Resources */,
+				F3DCCF821EE5C323008B7FBA /* domestic_dog_habitat.atlas in Resources */,
+				F31C9B571ED43F490047F10E /* ByeScene.sks in Resources */,
+				F3DCCF801EE5C323008B7FBA /* domestic_cow_walk.atlas in Resources */,
+				F3DCCF2F1EE5C305008B7FBA /* wild_dolphin_sing.atlas in Resources */,
+				F3DCCF8F1EE5C323008B7FBA /* domestic_frog_walk.atlas in Resources */,
+				F3236E1C1E9FC7CC0003F8B9 /* wild_snake.wav in Resources */,
+				F3DCCF491EE5C305008B7FBA /* wild_zebra_habitat.atlas in Resources */,
+				F3DCCF8E1EE5C323008B7FBA /* domestic_frog_sing.atlas in Resources */,
+				F3236E131E9FC7CC0003F8B9 /* domestic_duck.wav in Resources */,
+				F3236E1D1E9FC7CC0003F8B9 /* wild_wolf.wav in Resources */,
+				F3DCCF4B1EE5C305008B7FBA /* wild_zebra_walk.atlas in Resources */,
+				F396E5D91EE6FA8500DB7FF1 /* stars.atlas in Resources */,
+				F3DCCF8A1EE5C323008B7FBA /* domestic_duck_sing.atlas in Resources */,
+				F3DCCF481EE5C305008B7FBA /* wild_zebra_eat.atlas in Resources */,
+				F3DCCF3E1EE5C305008B7FBA /* wild_seal_habitat.atlas in Resources */,
+				F37DC7D61E6ED8BF00FF507D /* menu.mp3 in Resources */,
+				F3DCCF8D1EE5C323008B7FBA /* domestic_frog_habitat.atlas in Resources */,
+				F3DCCF251EE5C305008B7FBA /* wild_bear_walk.atlas in Resources */,
+				F3236E1B1E9FC7CC0003F8B9 /* domestic_sheep.wav in Resources */,
+				F3236E111E9FC7CC0003F8B9 /* wild_dolphin.wav in Resources */,
+				F3DCCF9B1EE5C323008B7FBA /* domestic_sheep_sing.atlas in Resources */,
+				F3236E171E9FC7CC0003F8B9 /* wild_lion.wav in Resources */,
+				F3DCCF881EE5C323008B7FBA /* domestic_donkey_walk.atlas in Resources */,
+				F37DC7CD1E6ED7A400FF507D /* MenuScene.sks in Resources */,
+				F3F87A751EE57BF80005E100 /* Quicksand_Bold_Oblique.otf in Resources */,
+				F3DCCF371EE5C305008B7FBA /* wild_lion_habitat.atlas in Resources */,
+				F3967C771F19456C00389600 /* CALU.mp3 in Resources */,
+				F3DCCF9E1EE5C50C008B7FBA /* wild_monkey_habitat.atlas in Resources */,
+				F3DCCF8B1EE5C323008B7FBA /* domestic_duck_walk.atlas in Resources */,
+				F3F87A771EE57BF80005E100 /* Quicksand_Book_Oblique.otf in Resources */,
+				F3DCCF261EE5C305008B7FBA /* wild_bird_eat.atlas in Resources */,
+				F3DCCF771EE5C323008B7FBA /* domestic_cat_sing.atlas in Resources */,
+				F3DCCF8C1EE5C323008B7FBA /* domestic_frog_eat.atlas in Resources */,
+				F3DCCF331EE5C305008B7FBA /* wild_elephant_sing.atlas in Resources */,
+				A43376891EE3A06900B218E3 /* bye.atlas in Resources */,
+				F3F87A7A1EE57BF80005E100 /* Quicksand_Light_Oblique.otf in Resources */,
+				F3DCCF981EE5C323008B7FBA /* domestic_rabbit_eat.atlas in Resources */,
+				F3DCCF411EE5C305008B7FBA /* wild_snake_habitat.atlas in Resources */,
+				F3DCCF811EE5C323008B7FBA /* domestic_dog_eat.atlas in Resources */,
+				F3236E101E9FC7CC0003F8B9 /* domestic_dog.wav in Resources */,
+				F3236E121E9FC7CC0003F8B9 /* domestic_donkey.wav in Resources */,
+				F35F02301EA0E7C200A15C81 /* domestic_cat.wav in Resources */,
+				F3DCCF911EE5C323008B7FBA /* domestic_horse_habitat.atlas in Resources */,
+				F3DCCF901EE5C323008B7FBA /* domestic_horse_eat.atlas in Resources */,
+				F3DCCF4A1EE5C305008B7FBA /* wild_zebra_sing.atlas in Resources */,
+				F3DCCF401EE5C305008B7FBA /* wild_seal_walk.atlas in Resources */,
+				F3DCCF431EE5C305008B7FBA /* wild_snake_walk.atlas in Resources */,
+				F3DCCF751EE5C323008B7FBA /* domestic_cat_eat.atlas in Resources */,
+				F3DCCF961EE5C323008B7FBA /* domestic_pig_sing.atlas in Resources */,
+				F3F87A7B1EE57BF80005E100 /* Quicksand_Light.otf in Resources */,
+				F34BBDE61E7212AE004B91E2 /* GameCock.sks in Resources */,
+				F3DCCF2B1EE5C305008B7FBA /* wild_camel_sing.atlas in Resources */,
+				F3DCCF451EE5C305008B7FBA /* wild_wolf_habitat.atlas in Resources */,
+				F37DC7D31E6ED7CD00FF507D /* monkey.atlas in Resources */,
+				F3DCCF291EE5C305008B7FBA /* wild_bird_walk.atlas in Resources */,
+				F3DCCF761EE5C323008B7FBA /* domestic_cat_habitat.atlas in Resources */,
+				F331FB601ECE46CD009F1973 /* Assets.xcassets in Resources */,
+				F37DC79A1E6ED71800FF507D /* GameScene.sks in Resources */,
+				F3DCCF861EE5C323008B7FBA /* domestic_donkey_habitat.atlas in Resources */,
+				F3DCCF7A1EE5C323008B7FBA /* domestic_cock_habitat.atlas in Resources */,
+				F3236E0F1E9FC7CC0003F8B9 /* domestic_cow.wav in Resources */,
+				F3DCCF851EE5C323008B7FBA /* domestic_donkey_eat.atlas in Resources */,
+				F3AB81D61E71E44E0014D6A6 /* GameMouse.sks in Resources */,
+				F3DCCF281EE5C305008B7FBA /* wild_bird_sing.atlas in Resources */,
+				F3DCCF461EE5C305008B7FBA /* wild_wolf_sing.atlas in Resources */,
+				F34BBDE01E721258004B91E2 /* GameMonkey.sks in Resources */,
+				F3DCCF471EE5C305008B7FBA /* wild_wolf_walk.atlas in Resources */,
+				F3F87A791EE57BF80005E100 /* Quicksand_Dash.otf in Resources */,
+				F3236E1A1E9FC7CC0003F8B9 /* wild_seal.wav in Resources */,
+				F3DCCF351EE5C305008B7FBA /* wild_giraffe_eat.atlas in Resources */,
+				F3B9AB751E76CB89005BDD0D /* Nodes in Resources */,
+				F3DCCF241EE5C305008B7FBA /* wild_bear_sing.atlas in Resources */,
+				F37DC7D21E6ED7CD00FF507D /* cock.atlas in Resources */,
+				F3236E141E9FC7CC0003F8B9 /* wild_elephant.wav in Resources */,
+				F3F87A781EE57BF80005E100 /* Quicksand_Book.otf in Resources */,
+				F3DCCF2D1EE5C305008B7FBA /* wild_dolphin_eat.atlas in Resources */,
+				F3DCCF321EE5C305008B7FBA /* wild_elephant_habitat.atlas in Resources */,
+				F37DC7A81E6ED71800FF507D /* LaunchScreen.storyboard in Resources */,
+				F3DCCF941EE5C323008B7FBA /* domestic_pig_eat.atlas in Resources */,
+				F3DCCF7F1EE5C323008B7FBA /* domestic_cow_sing.atlas in Resources */,
+				F3DCCF9A1EE5C323008B7FBA /* domestic_sheep_habitat.atlas in Resources */,
+				F3DCCF3A1EE5C305008B7FBA /* wild_monkey_eat.atlas in Resources */,
+				F3DCCF891EE5C323008B7FBA /* domestic_duck_habitat.atlas in Resources */,
+				F3DCCF841EE5C323008B7FBA /* domestic_dog_walk.atlas in Resources */,
+				F3DCCF9C1EE5C323008B7FBA /* domestic_sheep_walk.atlas in Resources */,
+				F3DCCF3F1EE5C305008B7FBA /* wild_seal_sing.atlas in Resources */,
+				F3DCCF421EE5C305008B7FBA /* wild_snake_sing.atlas in Resources */,
+				F3DCCF3B1EE5C305008B7FBA /* wild_monkey_sing.atlas in Resources */,
+				F3DCCF931EE5C323008B7FBA /* domestic_horse_walk.atlas in Resources */,
+				F37DC7D41E6ED7CD00FF507D /* mouse.atlas in Resources */,
+				F37DC79C1E6ED71800FF507D /* Actions.sks in Resources */,
+				F3DCCF3C1EE5C305008B7FBA /* wild_monkey_walk.atlas in Resources */,
+				F3DCCF231EE5C305008B7FBA /* wild_bear_habitat.atlas in Resources */,
+				F3DCCF2C1EE5C305008B7FBA /* wild_camel_walk.atlas in Resources */,
+				F3DCCF971EE5C323008B7FBA /* domestic_pig_walk.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7AC1E6ED71900FF507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7B71E6ED71900FF507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37DC7901E6ED71800FF507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37DC79E1E6ED71800FF507D /* GameScene.swift in Sources */,
+				F34BBDE21E72128D004B91E2 /* GameMonkey.swift in Sources */,
+				F31C9B5A1ED43F590047F10E /* ByeScene.swift in Sources */,
+				F37DC7CE1E6ED7A400FF507D /* MenuScene.swift in Sources */,
+				F3FD644A1EC74AE1008B03DC /* Correct+CoreDataProperties.swift in Sources */,
+				F34BBDE41E72129D004B91E2 /* GameCock.swift in Sources */,
+				F3FD64491EC74AE1008B03DC /* Correct+CoreDataClass.swift in Sources */,
+				F37DC7A01E6ED71800FF507D /* GameViewController.swift in Sources */,
+				F3FD64421EC748D0008B03DC /* CoreDataModel.xcdatamodeld in Sources */,
+				F3B605A71ECB5C5600C968C2 /* TimerScene.swift in Sources */,
+				F329D16C1E8978FB00366F92 /* Habitat.swift in Sources */,
+				F332B3421EC4958900369FBC /* ForParents.swift in Sources */,
+				F3FD64481EC74AE1008B03DC /* Wrong+CoreDataProperties.swift in Sources */,
+				F3AB81D41E71E3F70014D6A6 /* GameMouse.swift in Sources */,
+				F37DC7981E6ED71800FF507D /* AppDelegate.swift in Sources */,
+				F3D4E64B1E83EBAC00CEB56A /* Food.swift in Sources */,
+				F329D1671E896D6900366F92 /* Alerts.swift in Sources */,
+				F3189A421E7196F300066C22 /* SpriteKit.swift in Sources */,
+				F3A098B11EC6598E001DC06D /* ParentsInfo.swift in Sources */,
+				F3FD64471EC74AE1008B03DC /* Wrong+CoreDataClass.swift in Sources */,
+				F3D4E6491E834C3D00CEB56A /* Animal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7AA1E6ED71900FF507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37DC7B31E6ED71900FF507D /* CaluTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37DC7B51E6ED71900FF507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37DC7BE1E6ED71900FF507D /* CaluUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A44DB05A1ED8645D002E1119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = A44DB0591ED8645D002E1119 /* PBXContainerItemProxy */;
+		};
+		F37DC7B01E6ED71900FF507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37DC7931E6ED71800FF507D /* Calu */;
+			targetProxy = F37DC7AF1E6ED71900FF507D /* PBXContainerItemProxy */;
+		};
+		F37DC7BB1E6ED71900FF507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37DC7931E6ED71800FF507D /* Calu */;
+			targetProxy = F37DC7BA1E6ED71900FF507D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F37DC7A11E6ED71800FF507D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37DC7A21E6ED71800FF507D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F37DC7A61E6ED71800FF507D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37DC7A71E6ED71800FF507D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F37DC7C01E6ED71900FF507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37DC7C11E6ED71900FF507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37DC7C31E6ED71900FF507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = Calu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Calu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calu/Calu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Debug;
+		};
+		F37DC7C41E6ED71900FF507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = Calu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Calu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calu/Calu-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Release;
+		};
+		F37DC7C61E6ED71900FF507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CaluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calu.app/Calu";
+			};
+			name = Debug;
+		};
+		F37DC7C71E6ED71900FF507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CaluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calu.app/Calu";
+			};
+			name = Release;
+		};
+		F37DC7C91E6ED71900FF507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CaluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calu;
+			};
+			name = Debug;
+		};
+		F37DC7CA1E6ED71900FF507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CaluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37DC78F1E6ED71800FF507D /* Build configuration list for PBXProject "Calu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37DC7C01E6ED71900FF507D /* Debug */,
+				F37DC7C11E6ED71900FF507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37DC7C21E6ED71900FF507D /* Build configuration list for PBXNativeTarget "Calu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37DC7C31E6ED71900FF507D /* Debug */,
+				F37DC7C41E6ED71900FF507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37DC7C51E6ED71900FF507D /* Build configuration list for PBXNativeTarget "CaluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37DC7C61E6ED71900FF507D /* Debug */,
+				F37DC7C71E6ED71900FF507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37DC7C81E6ED71900FF507D /* Build configuration list for PBXNativeTarget "CaluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37DC7C91E6ED71900FF507D /* Debug */,
+				F37DC7CA1E6ED71900FF507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3FD64401EC748D0008B03DC /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3FD64411EC748D0008B03DC /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = F3FD64411EC748D0008B03DC /* CoreDataModel.xcdatamodel */;
+			name = CoreDataModel.xcdatamodeld;
+			path = Calu/CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F37DC78C1E6ED71800FF507D /* Project object */;
+}

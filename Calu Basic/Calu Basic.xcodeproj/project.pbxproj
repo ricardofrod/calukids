@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32065A31ED845BF0053D3F5 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32065A21ED845BF0053D3F5 /* MenuScene.swift */; };
+		F32065A71ED8466B0053D3F5 /* GameCock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32065A61ED8466A0053D3F5 /* GameCock.swift */; };
+		F32065A91ED8467A0053D3F5 /* GameCock.sks in Resources */ = {isa = PBXBuildFile; fileRef = F32065A81ED8467A0053D3F5 /* GameCock.sks */; };
+		F32065AB1ED846B70053D3F5 /* GameMonkey.sks in Resources */ = {isa = PBXBuildFile; fileRef = F32065AA1ED846B70053D3F5 /* GameMonkey.sks */; };
+		F32065AD1ED846C20053D3F5 /* GameMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32065AC1ED846C20053D3F5 /* GameMonkey.swift */; };
+		F32065AF1ED846E80053D3F5 /* GameMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32065AE1ED846E80053D3F5 /* GameMouse.swift */; };
+		F32065B11ED846F50053D3F5 /* GameMouse.sks in Resources */ = {isa = PBXBuildFile; fileRef = F32065B01ED846F50053D3F5 /* GameMouse.sks */; };
+		F32065B31ED8473F0053D3F5 /* ForParents.sks in Resources */ = {isa = PBXBuildFile; fileRef = F32065B21ED8473F0053D3F5 /* ForParents.sks */; };
+		F32065B51ED847490053D3F5 /* ForParents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32065B41ED847490053D3F5 /* ForParents.swift */; };
+		F35AF4401ED83FA400765AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF43F1ED83FA400765AB6 /* AppDelegate.swift */; };
+		F35AF4421ED83FA400765AB6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4411ED83FA400765AB6 /* GameScene.sks */; };
+		F35AF4441ED83FA400765AB6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4431ED83FA400765AB6 /* Actions.sks */; };
+		F35AF4461ED83FA400765AB6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4451ED83FA400765AB6 /* GameScene.swift */; };
+		F35AF4481ED83FA400765AB6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4471ED83FA400765AB6 /* GameViewController.swift */; };
+		F35AF44B1ED83FA400765AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4491ED83FA400765AB6 /* Main.storyboard */; };
+		F35AF44D1ED83FA400765AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35AF44C1ED83FA400765AB6 /* Assets.xcassets */; };
+		F35AF4501ED83FA400765AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35AF44E1ED83FA400765AB6 /* LaunchScreen.storyboard */; };
+		F35AF45B1ED83FA400765AB6 /* Calu_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF45A1ED83FA400765AB6 /* Calu_BasicTests.swift */; };
+		F35AF4661ED83FA400765AB6 /* Calu_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4651ED83FA400765AB6 /* Calu_BasicUITests.swift */; };
+		F35AF4741ED8406500765AB6 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4731ED8406500765AB6 /* Animal.swift */; };
+		F35AF4761ED8413400765AB6 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4751ED8413400765AB6 /* Food.swift */; };
+		F35AF4781ED841A300765AB6 /* Habitat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AF4771ED841A300765AB6 /* Habitat.swift */; };
+		F35AF4941ED8428000765AB6 /* domestic_cock.wav in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4931ED8428000765AB6 /* domestic_cock.wav */; };
+		F35AF4961ED8429800765AB6 /* domestic_horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4951ED8429800765AB6 /* domestic_horse.wav */; };
+		F35AF4981ED842AB00765AB6 /* wild_monkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4971ED842AB00765AB6 /* wild_monkey.wav */; };
+		F35AF49C1ED8441400765AB6 /* cock.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F35AF4991ED8441400765AB6 /* cock.atlas */; };
+		F35AF49D1ED8441400765AB6 /* monkey.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F35AF49A1ED8441400765AB6 /* monkey.atlas */; };
+		F35AF49E1ED8441400765AB6 /* mouse.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F35AF49B1ED8441400765AB6 /* mouse.atlas */; };
+		F35AF4A01ED8442E00765AB6 /* stars.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F35AF49F1ED8442E00765AB6 /* stars.atlas */; };
+		F377B3CC1ED8E4CE0042F1D6 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F377B3CB1ED8E4CE0042F1D6 /* menu.mp3 */; };
+		F377B3CE1ED985C70042F1D6 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F377B3CD1ED985C70042F1D6 /* MenuScene.sks */; };
+		F39CBCBA1EE3A13200352E02 /* Quicksand_Bold_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB31EE3A13200352E02 /* Quicksand_Bold_Oblique.otf */; };
+		F39CBCBB1EE3A13200352E02 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB41EE3A13200352E02 /* Quicksand_Bold.otf */; };
+		F39CBCBC1EE3A13200352E02 /* Quicksand_Book_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB51EE3A13200352E02 /* Quicksand_Book_Oblique.otf */; };
+		F39CBCBD1EE3A13200352E02 /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB61EE3A13200352E02 /* Quicksand_Book.otf */; };
+		F39CBCBE1EE3A13200352E02 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB71EE3A13200352E02 /* Quicksand_Dash.otf */; };
+		F39CBCBF1EE3A13200352E02 /* Quicksand_Light_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB81EE3A13200352E02 /* Quicksand_Light_Oblique.otf */; };
+		F39CBCC01EE3A13200352E02 /* Quicksand_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39CBCB91EE3A13200352E02 /* Quicksand_Light.otf */; };
+		F3BECEBF1F1AB004008F50B9 /* CALU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BECEBC1F1AB004008F50B9 /* CALU.mp3 */; };
+		F3BECEC01F1AB004008F50B9 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BECEBD1F1AB004008F50B9 /* intro.mp3 */; };
+		F3BECEC11F1AB004008F50B9 /* Kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BECEBE1F1AB004008F50B9 /* Kids.mp3 */; };
+		F3D7839A1EE49A2800363382 /* domestic_cock_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D7838E1EE49A2800363382 /* domestic_cock_eat.atlas */; };
+		F3D7839B1EE49A2800363382 /* domestic_cock_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D7838F1EE49A2800363382 /* domestic_cock_habitat.atlas */; };
+		F3D7839C1EE49A2800363382 /* domestic_cock_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783901EE49A2800363382 /* domestic_cock_sing.atlas */; };
+		F3D7839D1EE49A2800363382 /* domestic_cock_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783911EE49A2800363382 /* domestic_cock_walk.atlas */; };
+		F3D7839E1EE49A2800363382 /* domestic_horse_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783921EE49A2800363382 /* domestic_horse_eat.atlas */; };
+		F3D7839F1EE49A2800363382 /* domestic_horse_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783931EE49A2800363382 /* domestic_horse_habitat.atlas */; };
+		F3D783A01EE49A2800363382 /* domestic_horse_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783941EE49A2800363382 /* domestic_horse_sing.atlas */; };
+		F3D783A11EE49A2800363382 /* domestic_horse_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783951EE49A2800363382 /* domestic_horse_walk.atlas */; };
+		F3D783A21EE49A2800363382 /* wild_monkey_eat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783961EE49A2800363382 /* wild_monkey_eat.atlas */; };
+		F3D783A31EE49A2800363382 /* wild_monkey_habitat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783971EE49A2800363382 /* wild_monkey_habitat.atlas */; };
+		F3D783A41EE49A2800363382 /* wild_monkey_sing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783981EE49A2800363382 /* wild_monkey_sing.atlas */; };
+		F3D783A51EE49A2800363382 /* wild_monkey_walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F3D783991EE49A2800363382 /* wild_monkey_walk.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35AF4571ED83FA400765AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35AF4341ED83FA400765AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35AF43B1ED83FA400765AB6;
+			remoteInfo = "Calu Basic";
+		};
+		F35AF4621ED83FA400765AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35AF4341ED83FA400765AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35AF43B1ED83FA400765AB6;
+			remoteInfo = "Calu Basic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32065A21ED845BF0053D3F5 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F32065A61ED8466A0053D3F5 /* GameCock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCock.swift; sourceTree = "<group>"; };
+		F32065A81ED8467A0053D3F5 /* GameCock.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameCock.sks; sourceTree = "<group>"; };
+		F32065AA1ED846B70053D3F5 /* GameMonkey.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMonkey.sks; sourceTree = "<group>"; };
+		F32065AC1ED846C20053D3F5 /* GameMonkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMonkey.swift; sourceTree = "<group>"; };
+		F32065AE1ED846E80053D3F5 /* GameMouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMouse.swift; sourceTree = "<group>"; };
+		F32065B01ED846F50053D3F5 /* GameMouse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMouse.sks; sourceTree = "<group>"; };
+		F32065B21ED8473F0053D3F5 /* ForParents.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForParents.sks; sourceTree = "<group>"; };
+		F32065B41ED847490053D3F5 /* ForParents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForParents.swift; sourceTree = "<group>"; };
+		F35AF43C1ED83FA400765AB6 /* Calu Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calu Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35AF43F1ED83FA400765AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35AF4411ED83FA400765AB6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F35AF4431ED83FA400765AB6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F35AF4451ED83FA400765AB6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F35AF4471ED83FA400765AB6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F35AF44A1ED83FA400765AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35AF44C1ED83FA400765AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35AF44F1ED83FA400765AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35AF4511ED83FA400765AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35AF4561ED83FA400765AB6 /* Calu BasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calu BasicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35AF45A1ED83FA400765AB6 /* Calu_BasicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calu_BasicTests.swift; sourceTree = "<group>"; };
+		F35AF45C1ED83FA400765AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35AF4611ED83FA400765AB6 /* Calu BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calu BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35AF4651ED83FA400765AB6 /* Calu_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calu_BasicUITests.swift; sourceTree = "<group>"; };
+		F35AF4671ED83FA400765AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35AF4731ED8406500765AB6 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F35AF4751ED8413400765AB6 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F35AF4771ED841A300765AB6 /* Habitat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habitat.swift; sourceTree = "<group>"; };
+		F35AF4931ED8428000765AB6 /* domestic_cock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_cock.wav; sourceTree = "<group>"; };
+		F35AF4951ED8429800765AB6 /* domestic_horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domestic_horse.wav; sourceTree = "<group>"; };
+		F35AF4971ED842AB00765AB6 /* wild_monkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wild_monkey.wav; sourceTree = "<group>"; };
+		F35AF4991ED8441400765AB6 /* cock.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cock.atlas; sourceTree = "<group>"; };
+		F35AF49A1ED8441400765AB6 /* monkey.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = monkey.atlas; sourceTree = "<group>"; };
+		F35AF49B1ED8441400765AB6 /* mouse.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = mouse.atlas; sourceTree = "<group>"; };
+		F35AF49F1ED8442E00765AB6 /* stars.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stars.atlas; sourceTree = "<group>"; };
+		F377B3CB1ED8E4CE0042F1D6 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		F377B3CD1ED985C70042F1D6 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		F39CBCB31EE3A13200352E02 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
+		F39CBCB41EE3A13200352E02 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold.otf; sourceTree = "<group>"; };
+		F39CBCB51EE3A13200352E02 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		F39CBCB61EE3A13200352E02 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book.otf; sourceTree = "<group>"; };
+		F39CBCB71EE3A13200352E02 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		F39CBCB81EE3A13200352E02 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		F39CBCB91EE3A13200352E02 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light.otf; sourceTree = "<group>"; };
+		F3BECEBC1F1AB004008F50B9 /* CALU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CALU.mp3; sourceTree = "<group>"; };
+		F3BECEBD1F1AB004008F50B9 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		F3BECEBE1F1AB004008F50B9 /* Kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kids.mp3; sourceTree = "<group>"; };
+		F3D7838E1EE49A2800363382 /* domestic_cock_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_eat.atlas; sourceTree = "<group>"; };
+		F3D7838F1EE49A2800363382 /* domestic_cock_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_habitat.atlas; sourceTree = "<group>"; };
+		F3D783901EE49A2800363382 /* domestic_cock_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_sing.atlas; sourceTree = "<group>"; };
+		F3D783911EE49A2800363382 /* domestic_cock_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_cock_walk.atlas; sourceTree = "<group>"; };
+		F3D783921EE49A2800363382 /* domestic_horse_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_eat.atlas; sourceTree = "<group>"; };
+		F3D783931EE49A2800363382 /* domestic_horse_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_habitat.atlas; sourceTree = "<group>"; };
+		F3D783941EE49A2800363382 /* domestic_horse_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_sing.atlas; sourceTree = "<group>"; };
+		F3D783951EE49A2800363382 /* domestic_horse_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = domestic_horse_walk.atlas; sourceTree = "<group>"; };
+		F3D783961EE49A2800363382 /* wild_monkey_eat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_eat.atlas; sourceTree = "<group>"; };
+		F3D783971EE49A2800363382 /* wild_monkey_habitat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_habitat.atlas; sourceTree = "<group>"; };
+		F3D783981EE49A2800363382 /* wild_monkey_sing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_sing.atlas; sourceTree = "<group>"; };
+		F3D783991EE49A2800363382 /* wild_monkey_walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wild_monkey_walk.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35AF4391ED83FA400765AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF4531ED83FA400765AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF45E1ED83FA400765AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35AF4331ED83FA400765AB6 = {
+			isa = PBXGroup;
+			children = (
+				F35AF43E1ED83FA400765AB6 /* Calu Basic */,
+				F35AF4591ED83FA400765AB6 /* Calu BasicTests */,
+				F35AF4641ED83FA400765AB6 /* Calu BasicUITests */,
+				F35AF43D1ED83FA400765AB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35AF43D1ED83FA400765AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35AF43C1ED83FA400765AB6 /* Calu Basic.app */,
+				F35AF4561ED83FA400765AB6 /* Calu BasicTests.xctest */,
+				F35AF4611ED83FA400765AB6 /* Calu BasicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35AF43E1ED83FA400765AB6 /* Calu Basic */ = {
+			isa = PBXGroup;
+			children = (
+				F39CBCB21EE3A11800352E02 /* Fonts */,
+				F35AF4821ED8423600765AB6 /* Sounds */,
+				F35AF4791ED8420100765AB6 /* Images */,
+				F35AF4431ED83FA400765AB6 /* Actions.sks */,
+				F35AF43F1ED83FA400765AB6 /* AppDelegate.swift */,
+				F35AF4411ED83FA400765AB6 /* GameScene.sks */,
+				F35AF4451ED83FA400765AB6 /* GameScene.swift */,
+				F377B3CD1ED985C70042F1D6 /* MenuScene.sks */,
+				F32065A21ED845BF0053D3F5 /* MenuScene.swift */,
+				F32065A81ED8467A0053D3F5 /* GameCock.sks */,
+				F32065A61ED8466A0053D3F5 /* GameCock.swift */,
+				F32065AC1ED846C20053D3F5 /* GameMonkey.swift */,
+				F32065AA1ED846B70053D3F5 /* GameMonkey.sks */,
+				F32065AE1ED846E80053D3F5 /* GameMouse.swift */,
+				F32065B01ED846F50053D3F5 /* GameMouse.sks */,
+				F32065B21ED8473F0053D3F5 /* ForParents.sks */,
+				F32065B41ED847490053D3F5 /* ForParents.swift */,
+				F35AF4471ED83FA400765AB6 /* GameViewController.swift */,
+				F35AF4491ED83FA400765AB6 /* Main.storyboard */,
+				F35AF44C1ED83FA400765AB6 /* Assets.xcassets */,
+				F35AF44E1ED83FA400765AB6 /* LaunchScreen.storyboard */,
+				F35AF4511ED83FA400765AB6 /* Info.plist */,
+				F35AF4731ED8406500765AB6 /* Animal.swift */,
+				F35AF4751ED8413400765AB6 /* Food.swift */,
+				F35AF4771ED841A300765AB6 /* Habitat.swift */,
+			);
+			path = "Calu Basic";
+			sourceTree = "<group>";
+		};
+		F35AF4591ED83FA400765AB6 /* Calu BasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35AF45A1ED83FA400765AB6 /* Calu_BasicTests.swift */,
+				F35AF45C1ED83FA400765AB6 /* Info.plist */,
+			);
+			path = "Calu BasicTests";
+			sourceTree = "<group>";
+		};
+		F35AF4641ED83FA400765AB6 /* Calu BasicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35AF4651ED83FA400765AB6 /* Calu_BasicUITests.swift */,
+				F35AF4671ED83FA400765AB6 /* Info.plist */,
+			);
+			path = "Calu BasicUITests";
+			sourceTree = "<group>";
+		};
+		F35AF4791ED8420100765AB6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3D7838E1EE49A2800363382 /* domestic_cock_eat.atlas */,
+				F3D7838F1EE49A2800363382 /* domestic_cock_habitat.atlas */,
+				F3D783901EE49A2800363382 /* domestic_cock_sing.atlas */,
+				F3D783911EE49A2800363382 /* domestic_cock_walk.atlas */,
+				F3D783921EE49A2800363382 /* domestic_horse_eat.atlas */,
+				F3D783931EE49A2800363382 /* domestic_horse_habitat.atlas */,
+				F3D783941EE49A2800363382 /* domestic_horse_sing.atlas */,
+				F3D783951EE49A2800363382 /* domestic_horse_walk.atlas */,
+				F3D783961EE49A2800363382 /* wild_monkey_eat.atlas */,
+				F3D783971EE49A2800363382 /* wild_monkey_habitat.atlas */,
+				F3D783981EE49A2800363382 /* wild_monkey_sing.atlas */,
+				F3D783991EE49A2800363382 /* wild_monkey_walk.atlas */,
+				F35AF49F1ED8442E00765AB6 /* stars.atlas */,
+				F35AF4991ED8441400765AB6 /* cock.atlas */,
+				F35AF49A1ED8441400765AB6 /* monkey.atlas */,
+				F35AF49B1ED8441400765AB6 /* mouse.atlas */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F35AF4821ED8423600765AB6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F3BECEBC1F1AB004008F50B9 /* CALU.mp3 */,
+				F3BECEBD1F1AB004008F50B9 /* intro.mp3 */,
+				F3BECEBE1F1AB004008F50B9 /* Kids.mp3 */,
+				F377B3CB1ED8E4CE0042F1D6 /* menu.mp3 */,
+				F35AF4971ED842AB00765AB6 /* wild_monkey.wav */,
+				F35AF4951ED8429800765AB6 /* domestic_horse.wav */,
+				F35AF4931ED8428000765AB6 /* domestic_cock.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		F39CBCB21EE3A11800352E02 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F39CBCB31EE3A13200352E02 /* Quicksand_Bold_Oblique.otf */,
+				F39CBCB41EE3A13200352E02 /* Quicksand_Bold.otf */,
+				F39CBCB51EE3A13200352E02 /* Quicksand_Book_Oblique.otf */,
+				F39CBCB61EE3A13200352E02 /* Quicksand_Book.otf */,
+				F39CBCB71EE3A13200352E02 /* Quicksand_Dash.otf */,
+				F39CBCB81EE3A13200352E02 /* Quicksand_Light_Oblique.otf */,
+				F39CBCB91EE3A13200352E02 /* Quicksand_Light.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35AF43B1ED83FA400765AB6 /* Calu Basic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35AF46A1ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu Basic" */;
+			buildPhases = (
+				F35AF4381ED83FA400765AB6 /* Sources */,
+				F35AF4391ED83FA400765AB6 /* Frameworks */,
+				F35AF43A1ED83FA400765AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calu Basic";
+			productName = "Calu Basic";
+			productReference = F35AF43C1ED83FA400765AB6 /* Calu Basic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35AF4551ED83FA400765AB6 /* Calu BasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35AF46D1ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu BasicTests" */;
+			buildPhases = (
+				F35AF4521ED83FA400765AB6 /* Sources */,
+				F35AF4531ED83FA400765AB6 /* Frameworks */,
+				F35AF4541ED83FA400765AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35AF4581ED83FA400765AB6 /* PBXTargetDependency */,
+			);
+			name = "Calu BasicTests";
+			productName = "Calu BasicTests";
+			productReference = F35AF4561ED83FA400765AB6 /* Calu BasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35AF4601ED83FA400765AB6 /* Calu BasicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35AF4701ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu BasicUITests" */;
+			buildPhases = (
+				F35AF45D1ED83FA400765AB6 /* Sources */,
+				F35AF45E1ED83FA400765AB6 /* Frameworks */,
+				F35AF45F1ED83FA400765AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35AF4631ED83FA400765AB6 /* PBXTargetDependency */,
+			);
+			name = "Calu BasicUITests";
+			productName = "Calu BasicUITests";
+			productReference = F35AF4611ED83FA400765AB6 /* Calu BasicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35AF4341ED83FA400765AB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ricardo Rodrigues";
+				TargetAttributes = {
+					F35AF43B1ED83FA400765AB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V7K8G9CHJ6;
+						ProvisioningStyle = Automatic;
+					};
+					F35AF4551ED83FA400765AB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V7K8G9CHJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F35AF43B1ED83FA400765AB6;
+					};
+					F35AF4601ED83FA400765AB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V7K8G9CHJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F35AF43B1ED83FA400765AB6;
+					};
+				};
+			};
+			buildConfigurationList = F35AF4371ED83FA400765AB6 /* Build configuration list for PBXProject "Calu Basic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35AF4331ED83FA400765AB6;
+			productRefGroup = F35AF43D1ED83FA400765AB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35AF43B1ED83FA400765AB6 /* Calu Basic */,
+				F35AF4551ED83FA400765AB6 /* Calu BasicTests */,
+				F35AF4601ED83FA400765AB6 /* Calu BasicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35AF43A1ED83FA400765AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CBCBE1EE3A13200352E02 /* Quicksand_Dash.otf in Resources */,
+				F39CBCBD1EE3A13200352E02 /* Quicksand_Book.otf in Resources */,
+				F35AF4941ED8428000765AB6 /* domestic_cock.wav in Resources */,
+				F35AF44B1ED83FA400765AB6 /* Main.storyboard in Resources */,
+				F3D783A01EE49A2800363382 /* domestic_horse_sing.atlas in Resources */,
+				F39CBCBA1EE3A13200352E02 /* Quicksand_Bold_Oblique.otf in Resources */,
+				F3D7839B1EE49A2800363382 /* domestic_cock_habitat.atlas in Resources */,
+				F32065A91ED8467A0053D3F5 /* GameCock.sks in Resources */,
+				F3BECEC01F1AB004008F50B9 /* intro.mp3 in Resources */,
+				F39CBCBF1EE3A13200352E02 /* Quicksand_Light_Oblique.otf in Resources */,
+				F32065AB1ED846B70053D3F5 /* GameMonkey.sks in Resources */,
+				F3D7839A1EE49A2800363382 /* domestic_cock_eat.atlas in Resources */,
+				F3D7839C1EE49A2800363382 /* domestic_cock_sing.atlas in Resources */,
+				F377B3CC1ED8E4CE0042F1D6 /* menu.mp3 in Resources */,
+				F39CBCBC1EE3A13200352E02 /* Quicksand_Book_Oblique.otf in Resources */,
+				F39CBCBB1EE3A13200352E02 /* Quicksand_Bold.otf in Resources */,
+				F3BECEBF1F1AB004008F50B9 /* CALU.mp3 in Resources */,
+				F3BECEC11F1AB004008F50B9 /* Kids.mp3 in Resources */,
+				F32065B31ED8473F0053D3F5 /* ForParents.sks in Resources */,
+				F3D7839D1EE49A2800363382 /* domestic_cock_walk.atlas in Resources */,
+				F3D7839F1EE49A2800363382 /* domestic_horse_habitat.atlas in Resources */,
+				F377B3CE1ED985C70042F1D6 /* MenuScene.sks in Resources */,
+				F35AF49D1ED8441400765AB6 /* monkey.atlas in Resources */,
+				F35AF4A01ED8442E00765AB6 /* stars.atlas in Resources */,
+				F3D783A11EE49A2800363382 /* domestic_horse_walk.atlas in Resources */,
+				F3D783A31EE49A2800363382 /* wild_monkey_habitat.atlas in Resources */,
+				F32065B11ED846F50053D3F5 /* GameMouse.sks in Resources */,
+				F3D7839E1EE49A2800363382 /* domestic_horse_eat.atlas in Resources */,
+				F39CBCC01EE3A13200352E02 /* Quicksand_Light.otf in Resources */,
+				F35AF49C1ED8441400765AB6 /* cock.atlas in Resources */,
+				F35AF4421ED83FA400765AB6 /* GameScene.sks in Resources */,
+				F35AF4981ED842AB00765AB6 /* wild_monkey.wav in Resources */,
+				F35AF44D1ED83FA400765AB6 /* Assets.xcassets in Resources */,
+				F35AF4501ED83FA400765AB6 /* LaunchScreen.storyboard in Resources */,
+				F3D783A41EE49A2800363382 /* wild_monkey_sing.atlas in Resources */,
+				F35AF49E1ED8441400765AB6 /* mouse.atlas in Resources */,
+				F35AF4961ED8429800765AB6 /* domestic_horse.wav in Resources */,
+				F3D783A51EE49A2800363382 /* wild_monkey_walk.atlas in Resources */,
+				F35AF4441ED83FA400765AB6 /* Actions.sks in Resources */,
+				F3D783A21EE49A2800363382 /* wild_monkey_eat.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF4541ED83FA400765AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF45F1ED83FA400765AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35AF4381ED83FA400765AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35AF4461ED83FA400765AB6 /* GameScene.swift in Sources */,
+				F35AF4741ED8406500765AB6 /* Animal.swift in Sources */,
+				F35AF4761ED8413400765AB6 /* Food.swift in Sources */,
+				F32065B51ED847490053D3F5 /* ForParents.swift in Sources */,
+				F32065A71ED8466B0053D3F5 /* GameCock.swift in Sources */,
+				F32065A31ED845BF0053D3F5 /* MenuScene.swift in Sources */,
+				F32065AF1ED846E80053D3F5 /* GameMouse.swift in Sources */,
+				F35AF4481ED83FA400765AB6 /* GameViewController.swift in Sources */,
+				F32065AD1ED846C20053D3F5 /* GameMonkey.swift in Sources */,
+				F35AF4401ED83FA400765AB6 /* AppDelegate.swift in Sources */,
+				F35AF4781ED841A300765AB6 /* Habitat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF4521ED83FA400765AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35AF45B1ED83FA400765AB6 /* Calu_BasicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AF45D1ED83FA400765AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35AF4661ED83FA400765AB6 /* Calu_BasicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35AF4581ED83FA400765AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35AF43B1ED83FA400765AB6 /* Calu Basic */;
+			targetProxy = F35AF4571ED83FA400765AB6 /* PBXContainerItemProxy */;
+		};
+		F35AF4631ED83FA400765AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35AF43B1ED83FA400765AB6 /* Calu Basic */;
+			targetProxy = F35AF4621ED83FA400765AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35AF4491ED83FA400765AB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35AF44A1ED83FA400765AB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35AF44E1ED83FA400765AB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35AF44F1ED83FA400765AB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35AF4681ED83FA400765AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[sdk=iphonesimulator*]" = disable;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35AF4691ED83FA400765AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35AF46B1ED83FA400765AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu Basic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Debug;
+		};
+		F35AF46C1ED83FA400765AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu Basic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Release;
+		};
+		F35AF46E1ED83FA400765AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu BasicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-BasicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calu Basic.app/Calu Basic";
+			};
+			name = Debug;
+		};
+		F35AF46F1ED83FA400765AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu BasicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-BasicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calu Basic.app/Calu Basic";
+			};
+			name = Release;
+		};
+		F35AF4711ED83FA400765AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu BasicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-BasicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Calu Basic";
+			};
+			name = Debug;
+		};
+		F35AF4721ED83FA400765AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V7K8G9CHJ6;
+				INFOPLIST_FILE = "Calu BasicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calu-Basic.Calu-BasicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Calu Basic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35AF4371ED83FA400765AB6 /* Build configuration list for PBXProject "Calu Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AF4681ED83FA400765AB6 /* Debug */,
+				F35AF4691ED83FA400765AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35AF46A1ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AF46B1ED83FA400765AB6 /* Debug */,
+				F35AF46C1ED83FA400765AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35AF46D1ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu BasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AF46E1ED83FA400765AB6 /* Debug */,
+				F35AF46F1ED83FA400765AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35AF4701ED83FA400765AB6 /* Build configuration list for PBXNativeTarget "Calu BasicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AF4711ED83FA400765AB6 /* Debug */,
+				F35AF4721ED83FA400765AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35AF4341ED83FA400765AB6 /* Project object */;
+}
